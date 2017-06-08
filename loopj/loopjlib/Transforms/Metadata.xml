@@ -1,0 +1,12 @@
+<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+
+  <remove-node path="/api/package[@name='com.loopj.android.http']/class[@name='BinaryHttpResponseHandler']/method[@name='onFailure' and count(parameter)=4 and parameter[1][@type='int'] and parameter[2][@type='cz.msebera.android.httpclient.Header[]'] and parameter[3][@type='byte[]'] and parameter[4][@type='java.lang.Throwable']]" />
+  <remove-node path="/api/package[@name='com.loopj.android.http']/class[@name='BinaryHttpResponseHandler']/method[@name='onSuccess' and count(parameter)=3 and parameter[1][@type='int'] and parameter[2][@type='cz.msebera.android.httpclient.Header[]'] and parameter[3][@type='byte[]']]" />
+</metadata>

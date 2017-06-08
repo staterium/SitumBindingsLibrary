@@ -1,0 +1,18 @@
+<metadata>
+  <attr path="/api/package[@name='es.situm.sdk.location']/class[@name='LocationRequest']/method[@name='getIndoorProvider' and count(parameter)=0]" name="propertyName">myIndoorProvider</attr>
+  <attr path="/api/package[@name='es.situm.sdk.location']/class[@name='LocationRequest']/method[@name='getMotionMode' and count(parameter)=0]" name="propertyName">myMotionMode</attr>
+  <attr path="/api/package[@name='es.situm.sdk.model']/class[@name='Resource.Builder']" name="visibility">public</attr>
+  <attr path="/api/package[@name='es.situm.sdk.model.location']/class[@name='Location']/method[@name='getQuality']" name="managedName">myQuality</attr>
+  <attr path="/api/package[@name='es.situm.sdk.v1']/class[@name='SitumPOI']/method[@name='getLevelId' and count(parameter)=0]" name="visibility">public</attr>
+  <attr path="/api/package[@name='es.situm.sdk.error']/class" name="managedName">ErrorEnum</attr>
+  <attr path="/api/package[@name='es.situm.sdk.error']/class" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='es.situm.sdk.v1.messages']/interface[@name='Messages.CommandOrBuilder']/method[@name='getCommand' and count(parameter)=0]" name="managedName">MyGetCommand</attr>
+  <attr path="/api/package[@name='es.situm.sdk.v1.messages']/class[@name='Messages.Command']/method[@name='getCommand' and count(parameter)=0]" name="managedName">MyGetCommand</attr>
+  <attr path="/api/package[@name='es.situm.sdk.v1.messages']/class[@name='Messages.Command.Builder']/method[@name='getCommand' and count(parameter)=0]" name="managedName">MyGetCommand</attr>
+  <attr path="/api/package[@name='es.situm.sdk.v1.messages']/interface[@name='Responses.ResponseOrBuilder']/method[@name='getResponseSubmessageCase' and count(parameter)=0]" name="managedName">MyGetResponseSubmessageCase</attr>
+  <attr path="/api/package[@name='es.situm.sdk.v1.messages']/interface[@name='Messages.SitumMessageOrBuilder']/method[@name='getSubmessageCase' and count(parameter)=0]" name="managedName">MyGetResponseSubmessageCase</attr>
+  <attr path="/api/package[@name='es.situm.sdk.v1.messages']/class[@name='Responses.Response']/method[@name='getResponseSubmessageCase' and count(parameter)=0]" name="managedName">MyGetResponseSubmessageCase</attr>
+  <attr path="/api/package[@name='es.situm.sdk.v1.messages']/class[@name='Responses.Response.Builder']/method[@name='getResponseSubmessageCase' and count(parameter)=0]" name="managedName">MyGetResponseSubmessageCase</attr>
+  <attr path="/api/package[@name='es.situm.sdk.v1.messages']/class[@name='Messages.SitumMessage']/method[@name='getSubmessageCase' and count(parameter)=0]" name="managedName">MyGetResponseSubmessageCase</attr>
+  <attr path="/api/package[@name='es.situm.sdk.v1.messages']/class[@name='Messages.SitumMessage.Builder']/method[@name='getSubmessageCase' and count(parameter)=0]" name="managedName">MyGetResponseSubmessageCase</attr>
+</metadata>

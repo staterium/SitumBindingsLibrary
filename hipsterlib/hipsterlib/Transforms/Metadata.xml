@@ -1,0 +1,29 @@
+<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+
+  <attr path="/api/package[@name='es.usc.citius.hipster.algorithm']/class[@name='MultiobjectiveLS.Iterator']" name="managedName">MyIterator</attr>
+  <attr path="/api/package[@name='es.usc.citius.hipster.algorithm']/class[@name='DepthFirstSearch.Iterator']" name="managedName">MyIterator</attr>
+  <attr path="/api/package[@name='es.usc.citius.hipster.algorithm.localsearch']/class[@name='HillClimbing']/method[@name='iterator' and count(parameter)=0]" name="managedName">MyIterator</attr>
+  <attr path="/api/package[@name='es.usc.citius.hipster.algorithm.localsearch']/class[@name='AnnealingSearch']/method[@name='iterator' and count(parameter)=0]" name="managedName">MyIterator</attr>
+
+  <remove-node path="/api/package[@name='es.usc.citius.hipster.algorithm']/class[@name='BreadthFirstSearch']/method[@name='iterator' and count(parameter)=0]" />
+  <attr path="/api/package[@name='es.usc.citius.hipster.algorithm']/class[@name='BreadthFirstSearch.Iterator']" name="managedName">MyIterator</attr>
+
+
+  <remove-node path="/api/package[@name='es.usc.citius.hipster.algorithm']/class[@name='BellmanFord']/method[@name='iterator' and count(parameter)=0]" />
+  <attr path="/api/package[@name='es.usc.citius.hipster.algorithm']/class[@name='BellmanFord.Iterator']" name="managedName">MyIterator</attr>
+
+  <attr path="/api/package[@name='es.usc.citius.hipster.algorithm']/class[@name='AStar.Iterator']" name="managedName">MyIterator</attr>
+  <remove-node path="/api/package[@name='es.usc.citius.hipster.algorithm']/class[@name='AStar']/method[@name='iterator' and count(parameter)=0]" />
+
+  <attr path="/api/package[@name='es.usc.citius.hipster.algorithm']/class[@name='ADStarForward.Iterator']" name="managedName">MyIterator</attr>
+  <remove-node path="/api/package[@name='es.usc.citius.hipster.algorithm']/class[@name='ADStarForward']/method[@name='iterator' and count(parameter)=0]" />
+
+
+</metadata>

@@ -1,0 +1,20 @@
+<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="XXX" />
+  -->
+  
+  <remove-node path="/api/package[@name='org.hamcrest.internal']/class[@name='SelfDescribingValueIterator']/method[@name='next' and count(parameter)=0]" />
+  <attr path="/api/package[@name='org.hamcrest.core']/class[@name='ShortcutCombination']" name="visibility">public</attr>
+  <remove-node path="/api/package[@name='org.hamcrest.core']/class[@name='ShortcutCombination']/method[@name='describeTo' and count(parameter)=1 and parameter[1][@type='org.hamcrest.Description']]" />
+  <remove-node path="/api/package[@name='org.hamcrest.core']/class[@name='ShortcutCombination']/method[@name='matches' and count(parameter)=1 and parameter[1][@type='java.lang.Object']]" />
+  <remove-node path="/api/package[@name='org.hamcrest.core']/class[@name='ShortcutCombination']/method[@name='matches' and count(parameter)=2 and parameter[1][@type='java.lang.Object'] and parameter[2][@type='boolean']]" />
+  <attr path="/api/package[@name='org.hamcrest.core']/class[@name='AllOf']/method[@name='matches' and count(parameter)=2 and parameter[1][@type='java.lang.Object'] and parameter[2][@type='org.hamcrest.Description']]" name="visibility">protected</attr>
+
+
+  
+
+</metadata>

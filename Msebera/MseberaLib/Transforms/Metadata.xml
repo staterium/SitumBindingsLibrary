@@ -1,0 +1,64 @@
+<metadata>
+  <remove-node path="/api/package[@name='cz.msebera.android.httpclient.util']/class[@name='Args']/method[@name='notBlank' and count(parameter)=2 and parameter[1][@type='T'] and parameter[2][@type='java.lang.String']]" />
+  <remove-node path="/api/package[@name='cz.msebera.android.httpclient.util']/class[@name='Args']/method[@name='notEmpty' and count(parameter)=2 and parameter[1][@type='T'] and parameter[2][@type='java.lang.String']]" />
+  <remove-node path="/api/package[@name='cz.msebera.android.httpclient']/interface[@name='HttpConnection']/method[@name='close' and count(parameter)=0]" />
+  <attr path="/api/package[@name='cz.msebera.android.httpclient.client.entity']/class[@name='DecompressingEntity']" name="visibility">public</attr>
+  <attr path="/api/package[@name='cz.msebera.android.httpclient.client.methods']/class[@name='HttpRequestBase']/method[@name='getProtocolVersion' and count(parameter)=0]" name="managedName">getProtocolVersion</attr>
+  <remove-node path="/api/package[@name='cz.msebera.android.httpclient.impl.cookie']/class[@name='BasicClientCookie2']" />
+  <remove-node path="/api/package[@name='cz.msebera.android.httpclient.impl.io']/class[@name='HttpResponseParser']/method[@name='parseHead' and count(parameter)=1 and parameter[1][@type='cz.msebera.android.httpclient.io.SessionInputBuffer']]" />
+  <remove-node path="/api/package[@name='cz.msebera.android.httpclient.impl.io']/class[@name='HttpRequestParser']/method[@name='parseHead' and count(parameter)=1 and parameter[1][@type='cz.msebera.android.httpclient.io.SessionInputBuffer']]" />
+  <remove-node path="/api/package[@name='cz.msebera.android.httpclient.impl.io']/class[@name='DefaultHttpRequestParser']/method[@name='parseHead' and count(parameter)=1 and parameter[1][@type='cz.msebera.android.httpclient.io.SessionInputBuffer']]" />
+  <remove-node path="/api/package[@name='cz.msebera.android.httpclient.impl.conn']/class[@name='DefaultResponseParser']/method[@name='parseHead' and count(parameter)=1 and parameter[1][@type='cz.msebera.android.httpclient.io.SessionInputBuffer']]" />
+  <remove-node path="/api/package[@name='cz.msebera.android.httpclient.impl.io']/class[@name='DefaultHttpResponseParser']/method[@name='parseHead' and count(parameter)=1 and parameter[1][@type='cz.msebera.android.httpclient.io.SessionInputBuffer']]" />
+  <remove-node path="/api/package[@name='cz.msebera.android.httpclient.impl.conn']/class[@name='AbstractClientConnAdapter']" />
+  <attr path="/api/package[@name='cz.msebera.android.httpclient.impl']/class[@name='BHttpConnectionBase']/method[@name='getSocket' and count(parameter)=0]" name="managedName">SomeOtherSocketName</attr>
+  <attr path="/api/package[@name='cz.msebera.android.httpclient.impl']/class[@name='SocketHttpClientConnection']/method[@name='getSocket' and count(parameter)=0]" name="managedName">SomeOtherSocketName</attr>
+  <remove-node path="/api/package[@name='cz.msebera.android.httpclient.impl.conn']/class[@name='DefaultHttpResponseParser']/method[@name='parseHead' and count(parameter)=1 and parameter[1][@type='cz.msebera.android.httpclient.io.SessionInputBuffer']]" />
+  <attr path="/api/package[@name='cz.msebera.android.httpclient.impl.client']/class[@name='AuthenticationStrategyImpl']" name="visibility">public</attr>
+  <remove-node path="/api/package[@name='cz.msebera.android.httpclient.impl.client']/class[@name='TargetAuthenticationStrategy']/method[@name='getChallenges' and count(parameter)=3 and parameter[1][@type='cz.msebera.android.httpclient.HttpHost'] and parameter[2][@type='cz.msebera.android.httpclient.HttpResponse'] and parameter[3][@type='cz.msebera.android.httpclient.protocol.HttpContext']]" />
+  <remove-node path="/api/package[@name='cz.msebera.android.httpclient.impl.client']/class[@name='TargetAuthenticationStrategy']/method[@name='select' and count(parameter)=4 and parameter[1][@type='java.util.Map'] and parameter[2][@type='cz.msebera.android.httpclient.HttpHost'] and parameter[3][@type='cz.msebera.android.httpclient.HttpResponse'] and parameter[4][@type='cz.msebera.android.httpclient.protocol.HttpContext']]" />
+  <attr path="/api/package[@name='cz.msebera.android.httpclient.impl.client']/class[@name='RequestWrapper']/method[@name='setProtocolVersion' and count(parameter)=1 and parameter[1][@type='cz.msebera.android.httpclient.ProtocolVersion']]" name="managedName">SomeOtherName</attr>
+  <remove-node path="/api/package[@name='cz.msebera.android.httpclient.impl.client']/class[@name='RedirectLocations']/method[@name='get' and count(parameter)=1 and parameter[1][@type='int']]" />
+  <remove-node path="/api/package[@name='cz.msebera.android.httpclient.impl.client']/class[@name='ProxyAuthenticationStrategy']/method[@name='getChallenges' and count(parameter)=3 and parameter[1][@type='cz.msebera.android.httpclient.HttpHost'] and parameter[2][@type='cz.msebera.android.httpclient.HttpResponse'] and parameter[3][@type='cz.msebera.android.httpclient.protocol.HttpContext']]" />
+  <remove-node path="/api/package[@name='cz.msebera.android.httpclient.impl.client']/class[@name='ProxyAuthenticationStrategy']/method[@name='select' and count(parameter)=4 and parameter[1][@type='java.util.Map'] and parameter[2][@type='cz.msebera.android.httpclient.HttpHost'] and parameter[3][@type='cz.msebera.android.httpclient.HttpResponse'] and parameter[4][@type='cz.msebera.android.httpclient.protocol.HttpContext']]" />
+  <remove-node path="/api/package[@name='cz.msebera.android.httpclient']/interface[@name='HttpMessage']/method[@name='getProtocolVersion' and count(parameter)=0]" />
+  <attr path="/api/package[@name='cz.msebera.android.httpclient.impl.client']/class[@name='HttpRequestTaskCallable']" name="visibility">public</attr>
+  <!--<remove-node path="/api/package[@name='cz.msebera.android.httpclient.impl.client']/class[@name='CloseableHttpClient']/method[@name='execute' and count(parameter)=2 and parameter[1][@type='cz.msebera.android.httpclient.HttpHost'] and parameter[2][@type='cz.msebera.android.httpclient.HttpRequest']]" />-->
+  <attr path="/api/package[@name='cz.msebera.android.httpclient.impl.client.cache']/interface[@name='HttpCache']" name="visibility">public</attr>
+  <attr path="/api/package[@name='cz.msebera.android.httpclient.impl.client.cache']/class[@name='Variant']" name="visibility">public</attr>
+  <attr path="/api/package[@name='cz.msebera.android.httpclient.impl.client.cache']/class[@name='AsynchronousValidator']" name="visibility">public</attr>
+  <attr path="/api/package[@name='cz.msebera.android.httpclient.client']/interface[@name='HttpClient']/method[@name='getParams' and count(parameter)=0]" name="managedName">SomeOtherName</attr>
+  <attr path="/api/package[@name='cz.msebera.android.httpclient']/interface[@name='HttpEntity']/method[@name='getContent']" name="managedName">SomeOtherName</attr>
+  <remove-node path="/api/package[@name='cz.msebera.android.httpclient.entity']/class[@name='BasicHttpEntity']/method[@name='setContentLength' and count(parameter)=1 and parameter[1][@type='long']]" />
+  <attr path="/api/package[@name='cz.msebera.android.httpclient.client.protocol']/class[@name='RequestAuthenticationBase']" name="visibility">public</attr>
+
+  <attr path="/api/package[@name='cz.msebera.android.httpclient.impl.client']/class[@name='CloseableHttpClient']/method[@name='execute' and count(parameter)=2 and parameter[1][@type='cz.msebera.android.httpclient.HttpHost'] and parameter[2][@type='cz.msebera.android.httpclient.HttpRequest']]" name="return">cz.msebera.android.httpclient.HttpResponse</attr>
+  <attr path="/api/package[@name='cz.msebera.android.httpclient.impl.client']/class[@name='CloseableHttpClient']/method[@name='execute' and count(parameter)=3 and parameter[1][@type='cz.msebera.android.httpclient.HttpHost'] and parameter[2][@type='cz.msebera.android.httpclient.HttpRequest'] and parameter[3][@type='cz.msebera.android.httpclient.protocol.HttpContext']]"  name="return">cz.msebera.android.httpclient.HttpResponse</attr>
+  <attr path="/api/package[@name='cz.msebera.android.httpclient.impl.client']/class[@name='CloseableHttpClient']/method[@name='execute' and count(parameter)=1 and parameter[1][@type='cz.msebera.android.httpclient.client.methods.HttpUriRequest']]"  name="return">cz.msebera.android.httpclient.HttpResponse</attr>
+  <attr path="/api/package[@name='cz.msebera.android.httpclient.impl.client']/class[@name='CloseableHttpClient']/method[@name='execute' and count(parameter)=2 and parameter[1][@type='cz.msebera.android.httpclient.client.methods.HttpUriRequest'] and parameter[2][@type='cz.msebera.android.httpclient.protocol.HttpContext']]"  name="return">cz.msebera.android.httpclient.HttpResponse</attr>
+
+  <!--
+  <remove-node path="/api/package[@name='cz.msebera.android.httpclient.impl.client']/class[@name='CloseableHttpClient']/method[@name='execute' and count(parameter)=2 and parameter[1][@type='cz.msebera.android.httpclient.HttpHost'] and parameter[2][@type='cz.msebera.android.httpclient.HttpRequest']]" />
+  <remove-node path="/api/package[@name='cz.msebera.android.httpclient.impl.client']/class[@name='CloseableHttpClient']/method[@name='execute' and count(parameter)=3 and parameter[1][@type='cz.msebera.android.httpclient.HttpHost'] and parameter[2][@type='cz.msebera.android.httpclient.HttpRequest'] and parameter[3][@type='cz.msebera.android.httpclient.protocol.HttpContext']]" />
+  <remove-node path="/api/package[@name='cz.msebera.android.httpclient.impl.client']/class[@name='CloseableHttpClient']/method[@name='execute' and count(parameter)=1 and parameter[1][@type='cz.msebera.android.httpclient.client.methods.HttpUriRequest']]" />
+  <remove-node path="/api/package[@name='cz.msebera.android.httpclient.impl.client']/class[@name='CloseableHttpClient']/method[@name='execute' and count(parameter)=2 and parameter[1][@type='cz.msebera.android.httpclient.client.methods.HttpUriRequest'] and parameter[2][@type='cz.msebera.android.httpclient.protocol.HttpContext']]" />
+
+  <remove-node path="/api/package[@name='cz.msebera.android.httpclient.impl.client']/interface[@name='HttpClient']/method[@name='execute' and count(parameter)=2 and parameter[1][@type='cz.msebera.android.httpclient.HttpHost'] and parameter[2][@type='cz.msebera.android.httpclient.HttpRequest']]" />
+  <remove-node path="/api/package[@name='cz.msebera.android.httpclient.impl.client']/interface[@name='HttpClient']/method[@name='execute' and count(parameter)=3 and parameter[1][@type='cz.msebera.android.httpclient.HttpHost'] and parameter[2][@type='cz.msebera.android.httpclient.HttpRequest'] and parameter[3][@type='cz.msebera.android.httpclient.protocol.HttpContext']]" />
+  <remove-node path="/api/package[@name='cz.msebera.android.httpclient.impl.client']/interface[@name='HttpClient']/method[@name='execute' and count(parameter)=1 and parameter[1][@type='cz.msebera.android.httpclient.client.methods.HttpUriRequest']]" />
+  <remove-node path="/api/package[@name='cz.msebera.android.httpclient.impl.client']/interface[@name='HttpClient']/method[@name='execute' and count(parameter)=2 and parameter[1][@type='cz.msebera.android.httpclient.client.methods.HttpUriRequest'] and parameter[2][@type='cz.msebera.android.httpclient.protocol.HttpContext']]" />
+-->
+
+
+
+
+
+  <!--
+  
+  <remove-node path="XXX" />
+  <attr path="XXX" name="return">XXX</attr>
+  <attr path="XXX" name="visibility">public</attr>
+  
+  -->
+
+</metadata>

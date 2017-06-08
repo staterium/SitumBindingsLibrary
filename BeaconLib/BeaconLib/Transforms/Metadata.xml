@@ -1,0 +1,35 @@
+<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  
+  <remove-node path="XXX" />
+  <attr path="XXX" name="XXX">XXX</attr>
+  
+  -->
+
+  <remove-node path="/api/package[@name='org.altbeacon.beacon']/class[@name='Region']/method[@name='clone' and count(parameter)=0]" />
+  <remove-node path="/api/package[@name='org.altbeacon.bluetooth']/class[@name='BluetoothCrashResolver']/method[@name='disableDebug' and count(parameter)=0]" />
+  <remove-node path="/api/package[@name='org.altbeacon.bluetooth']/class[@name='BluetoothCrashResolver']/method[@name='enableDebug' and count(parameter)=0]" />
+  <remove-node path="/api/package[@name='org.altbeacon.beacon']/class[@name='Identifier']/method[@name='toUuidString' and count(parameter)=0]" />
+  <remove-node path="/api/package[@name='org.altbeacon.beacon']/class[@name='BeaconManager']/method[@name='getMonitoringNotifier' and count(parameter)=0]" />
+  <remove-node path="/api/package[@name='org.altbeacon.beacon']/class[@name='BeaconManager']/method[@name='getRangingNotifier' and count(parameter)=0]" />
+  <remove-node path="/api/package[@name='org.altbeacon.beacon']/class[@name='BeaconManager']/method[@name='setMonitorNotifier' and count(parameter)=1 and parameter[1][@type='org.altbeacon.beacon.MonitorNotifier']]" />
+  <remove-node path="/api/package[@name='org.altbeacon.beacon']/class[@name='BeaconManager']/method[@name='setRangeNotifier' and count(parameter)=1 and parameter[1][@type='org.altbeacon.beacon.RangeNotifier']]" />
+  <remove-node path="/api/package[@name='org.altbeacon.beacon']/class[@name='AltBeacon']/field[@name='CREATOR']" />
+
+  <attr path="/api/package[@name='org.altbeacon.beacon']/class[@name='BeaconIntentProcessor']" name="extends">mono.android.app.IntentService</attr>
+  <attr path="/api/package[@name='org.altbeacon.beacon']/class[@name='BeaconManager']/method[@name='getDistanceModelUpdateUrl']" name="managedName">MyGetDistanceModelUpdateUrl</attr>
+  <attr path="/api/package[@name='org.altbeacon.beacon']/class[@name='BeaconManager']/method[@name='getDataRequestNotifier']" name="managedName">MyGetDataRequestNotifier</attr>
+  <attr path="/api/package[@name='org.altbeacon.beacon']/class[@name='BeaconManager']/method[@name='getBeaconSimulator']" name="managedName">MyGetBeaconSimulator</attr>
+  <attr path="/api/package[@name='org.altbeacon.beacon']/class[@name='BeaconParser']/method[@name='getMServiceUuidStartOffset']" name="managedName">MyGetMServiceUuidStartOffset</attr>
+  <attr path="/api/package[@name='org.altbeacon.beacon.simulator']/class/method[@name='getBeacons']" name="managedName">MyGetBeacons</attr>
+
+  
+
+
+
+</metadata>

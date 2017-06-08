@@ -1,0 +1,50 @@
+<metadata>
+  <remove-node path="/api/package/class[@name='UnmodifiableLazyStringList']/method[@name='get']" />
+  <remove-node path="/api/package/class[@name='LazyStringArrayList']/method[@name='get']" />
+  <remove-node path="/api/package/class[@name='LazyStringArrayList.ByteArrayListView']/method[@name='get']" />
+  <remove-node path="/api/package/class[@name='LazyStringArrayList.ByteStringListView']/method[@name='get']" />
+  <attr path="/api/package/class[@name='AbstractProtobufList']" name="visibility">public</attr>
+  <attr path="/api/package[@name='com.google.protobuf']/interface[@name='Internal.BooleanList']/method[@name='mutableCopyWithCapacity' and count(parameter)=1 and parameter[1][@type='int']]" name="return">Com.Google.Protobuf.Internal.IProtobufList</attr>
+  <attr path="/api/package[@name='com.google.protobuf']/interface[@name='Internal.DoubleList']/method[@name='mutableCopyWithCapacity' and count(parameter)=1 and parameter[1][@type='int']]" name="return">Com.Google.Protobuf.Internal.IProtobufList</attr>
+  <attr path="/api/package[@name='com.google.protobuf']/interface[@name='Internal.FloatList']/method[@name='mutableCopyWithCapacity' and count(parameter)=1 and parameter[1][@type='int']]" name="return">Com.Google.Protobuf.Internal.IProtobufList</attr>
+  <attr path="/api/package[@name='com.google.protobuf']/interface[@name='Internal.IntList']/method[@name='mutableCopyWithCapacity' and count(parameter)=1 and parameter[1][@type='int']]" name="return">Com.Google.Protobuf.Internal.IProtobufList</attr>
+  <attr path="/api/package[@name='com.google.protobuf']/interface[@name='Internal.LongList']/method[@name='mutableCopyWithCapacity' and count(parameter)=1 and parameter[1][@type='int']]" name="return">Com.Google.Protobuf.Internal.IProtobufList</attr>
+  <remove-node path="/api/package[@name='com.google.protobuf']/class[@name='CodedOutputStream']/method[@name='writeLazy' and count(parameter)=3 and parameter[1][@type='byte[]'] and parameter[2][@type='int'] and parameter[3][@type='int']]" />
+  <remove-node path="/api/package[@name='com.google.protobuf']/class[@name='CodedOutputStream']/method[@name='writeLazy' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" />
+  <remove-node path="/api/package[@name='com.google.protobuf']/class[@name='CodedOutputStream']/method[@name='write' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" />
+  <remove-node path="/api/package[@name='com.google.protobuf']/class[@name='CodedOutputStream']/method[@name='write' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]" />
+  <remove-node path="/api/package[@name='com.google.protobuf']/class[@name='CodedOutputStream']/method[@name='write' and count(parameter)=1 and parameter[1][@type='byte']]" />
+  <remove-node path="/api/package[@name='com.google.protobuf']/class[@name='CodedOutputStream']/method[@name='write' and count(parameter)=3 and parameter[1][@type='byte[]'] and parameter[2][@type='int'] and parameter[3][@type='int']]" />
+  <remove-node path="/api/package[@name='com.google.protobuf']/interface[@name='MessageLite.Builder']/method[@name='build' and count(parameter)=0]" />
+  <remove-node path="/api/package[@name='com.google.protobuf']/interface[@name='MessageLite.Builder']/method[@name='buildPartial' and count(parameter)=0]" />
+  <remove-node path="/api/package[@name='com.google.protobuf']/class[@name='GeneratedMessageLite.Builder']/method[@name='clear' and count(parameter)=0]" />
+  <remove-node path="/api/package[@name='com.google.protobuf']/interface[@name='MessageLite.Builder']/method[@name='clear' and count(parameter)=0]" />
+  <remove-node path="/api/package[@name='com.google.protobuf']/interface[@name='MessageLite']/method[@name='newBuilderForType' and count(parameter)=0]" />
+  <remove-node path="/api/package[@name='com.google.protobuf']/interface[@name='MessageLite']/method[@name='toBuilder' and count(parameter)=0]" />
+  <remove-node path="/api/package[@name='com.google.protobuf']/class[@name='LazyField.LazyIterator']/method[@name='next' and count(parameter)=0]" />
+  <remove-node path="/api/package[@name='com.google.protobuf']/class[@name='Internal.MapAdapter.EntryAdapter']" />
+  <remove-node path="/api/package[@name='com.google.protobuf']/class[@name='Internal.MapAdapter.IteratorAdapter']/method[@name='next' and count(parameter)=0]" />
+  <remove-node path="/api/package/class[@name='Internal.MapAdapter']" />
+  <remove-node path="/api/package[@name='com.google.protobuf']/class[@name='Internal.MapAdapter.1']" />
+  <remove-node path="/api/package[@name='com.google.protobuf']/class[@name='Internal.MapAdapter.EntryAdapter']" />
+  <remove-node path="/api/package[@name='com.google.protobuf']/class[@name='Internal.MapAdapter.IteratorAdapter']" />
+  <remove-node path="/api/package[@name='com.google.protobuf']/class[@name='Internal.MapAdapter.SetAdapter']" />
+  <attr path="/api/package[@name='com.google.protobuf']/class[@name='GeneratedMessageLite.Builder']/method[@name='getDefaultInstanceForType' and count(parameter)=0]" name="return">Com.Google.Protobuf.IMessageLite</attr>
+  <attr path="/api/package/class[@name='FieldSet']" name="visibility">public</attr>
+  <remove-node path="/api/package[@name='com.google.protobuf']/class[@name='GeneratedMessageLite']/method[@name='getDefaultInstanceForType' and count(parameter)=0]" />
+  <attr path="/api/package[@name='com.google.protobuf']/class[@name='ByteString']/method[@name='iterator' and count(parameter)=0]" name="return">Java.Util.IIterator</attr>
+  <attr path="/api/package[@name='com.google.protobuf']/class[@name='AbstractMessageLite.Builder']/method[@name='clone' and count(parameter)=0]" name="return">Com.Google.Protobuf.IMessageLiteBuilder</attr>
+  <attr path="/api/package[@name='com.google.protobuf']/class[@name='GeneratedMessageLite.Builder']/method[@name='clone' and count(parameter)=0]" name="return">Com.Google.Protobuf.IMessageLiteBuilder</attr>
+  <attr path="/api/package[@name='com.google.protobuf']/class[@name='AbstractMessageLite.Builder']/method[@name='mergeFrom' and count(parameter)=1 and parameter[1][@type='byte[]']]" name="return">Com.Google.Protobuf.IMessageLiteBuilder</attr>
+  <attr path="/api/package[@name='com.google.protobuf']/class[@name='AbstractMessageLite.Builder']/method[@name='mergeFrom' and count(parameter)=2 and parameter[1][@type='byte[]'] and parameter[2][@type='com.google.protobuf.ExtensionRegistryLite']]" name="return">Com.Google.Protobuf.IMessageLiteBuilder</attr>
+  <attr path="/api/package[@name='com.google.protobuf']/class[@name='AbstractMessageLite.Builder']/method[@name='mergeFrom' and count(parameter)=3 and parameter[1][@type='byte[]'] and parameter[2][@type='int'] and parameter[3][@type='int']]" name="return">Com.Google.Protobuf.IMessageLiteBuilder</attr>
+  <attr path="/api/package[@name='com.google.protobuf']/class[@name='AbstractMessageLite.Builder']/method[@name='mergeFrom' and count(parameter)=4 and parameter[1][@type='byte[]'] and parameter[2][@type='int'] and parameter[3][@type='int'] and parameter[4][@type='com.google.protobuf.ExtensionRegistryLite']]" name="return">Com.Google.Protobuf.IMessageLiteBuilder</attr>
+  <attr path="/api/package[@name='com.google.protobuf']/class[@name='AbstractMessageLite.Builder']/method[@name='mergeFrom' and count(parameter)=1 and parameter[1][@type='com.google.protobuf.ByteString']]" name="return">Com.Google.Protobuf.IMessageLiteBuilder</attr>
+  <attr path="/api/package[@name='com.google.protobuf']/class[@name='AbstractMessageLite.Builder']/method[@name='mergeFrom' and count(parameter)=2 and parameter[1][@type='com.google.protobuf.ByteString'] and parameter[2][@type='com.google.protobuf.ExtensionRegistryLite']]" name="return">Com.Google.Protobuf.IMessageLiteBuilder</attr>
+  <attr path="/api/package[@name='com.google.protobuf']/class[@name='AbstractMessageLite.Builder']/method[@name='mergeFrom' and count(parameter)=1 and parameter[1][@type='com.google.protobuf.CodedInputStream']]" name="return">Com.Google.Protobuf.IMessageLiteBuilder</attr>
+  <attr path="/api/package[@name='com.google.protobuf']/class[@name='AbstractMessageLite.Builder']/method[@name='mergeFrom' and count(parameter)=2 and parameter[1][@type='com.google.protobuf.CodedInputStream'] and parameter[2][@type='com.google.protobuf.ExtensionRegistryLite']]" name="return">Com.Google.Protobuf.IMessageLiteBuilder</attr>
+  <attr path="/api/package[@name='com.google.protobuf']/class[@name='AbstractMessageLite.Builder']/method[@name='mergeFrom' and count(parameter)=1 and parameter[1][@type='com.google.protobuf.MessageLite']]" name="return">Com.Google.Protobuf.IMessageLiteBuilder</attr>
+  <attr path="/api/package[@name='com.google.protobuf']/class[@name='AbstractMessageLite.Builder']/method[@name='mergeFrom' and count(parameter)=1 and parameter[1][@type='java.io.InputStream']]" name="return">Com.Google.Protobuf.IMessageLiteBuilder</attr>
+  <attr path="/api/package[@name='com.google.protobuf']/class[@name='AbstractMessageLite.Builder']/method[@name='mergeFrom' and count(parameter)=2 and parameter[1][@type='java.io.InputStream'] and parameter[2][@type='com.google.protobuf.ExtensionRegistryLite']]" name="return">Com.Google.Protobuf.IMessageLiteBuilder</attr>
+  <remove-node path="/api/package[@name='com.google.protobuf']/class[@name='GeneratedMessageLite.Builder']/method[@name='mergeFrom' and count(parameter)=2 and parameter[1][@type='com.google.protobuf.CodedInputStream'] and parameter[2][@type='com.google.protobuf.ExtensionRegistryLite']]" />
+</metadata>
