@@ -1,5 +1,8 @@
 # SitumBindingsLibrary
-A Xamarin Bindings Library for Situm SDK. www.situm.es
+
+A Xamarin Bindings Library for the Situm SDK. 
+
+www.situm.es
 
 This project provides a prototype Xamarin Bindings Library for use with the Situm SDK.
 
